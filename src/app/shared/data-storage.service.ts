@@ -30,13 +30,13 @@ storeRecipes() {
         };
       });
 
-     
+
     }),
     tap(recipes => {
       this.recipeService.setRecipes(recipes)
 
     }
-  }
+    )
 
 
 
@@ -44,4 +44,4 @@ storeRecipes() {
 
 
 
-
+    )}}
